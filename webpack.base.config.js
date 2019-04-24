@@ -5,7 +5,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 
-const Env = require('./env');
+const Env = require('./config/env');
 const env = Env.env;
 const isProductEnv = Env.isProductEnv;
 
@@ -103,7 +103,7 @@ module.exports = {
         }),
         // 产出 HTML
         new HtmlWebpackPlugin({
-            template: resolve(__dirname, '../index.html'),   // 模板
+            template: resolve(__dirname, './index.html'),   // 模板
             filename: 'index.html',  // 写入的文件，默认 index.html
             favicon: 'favicon.ico',
             chunks: ['app', 'vendor', 'utils'],    // 代码块，由index 和 vendor 2个模块组合而成

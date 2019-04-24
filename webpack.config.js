@@ -1,4 +1,4 @@
-const base = require('./config/webpack.base.config');
+const base = require('./webpack.base.config');
 const merge = require('webpack-merge');
 
 let config;

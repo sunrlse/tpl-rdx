@@ -1,6 +1,6 @@
 - webpack4 react redux axios
 - 本地数据 mock
-- 路由配置文件（按照 antd 的 Menu）
+- 路由配置文件
 
 ``` js
 
