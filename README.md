@@ -1,19 +1,28 @@
-- webpack4 react redux axios
-- 本地数据 mock
-- 路由配置文件
+## 基于Webpack4和Vue的多页应用脚手架
+ 
+ 
 
+0 安装依赖
 ``` js
-
-	npm i
-	npm run dev
-	npm run build
-
+    npm install
 ```
 
+1 开发
+``` js
+    npm run dev
+```
 
-> 通过路由配置来生成路由的方式是参考了 [Material-UI Theme](https://demos.creative-tim.com/material-dashboard-react/?_ga=2.55719595.10714530.1535703355-492283409.1535703355#/dashboard) 
+2 测试打包
+``` js
+    npm run test
+```
 
-☛ [React技术栈整套工程化流程](https://www.jianshu.com/p/088116f02b26)
+3 生产打包
+``` js
+    npm run build
+```
 
-☛ [Webpack4+React 项目框架从0到1](https://www.jianshu.com/p/c12d54b6974b) 
-
+4. 打包后服务器环境预览
+``` js
+    npm run serve
+```
